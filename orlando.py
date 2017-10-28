@@ -55,9 +55,10 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" [R.A] BOT Menu V.3  􀔃􀄆red check mark􏿿
+helpMessage =""" Syntax Protector Command  􀔃􀄆red check mark􏿿
 
-􀔃􀅕red arrow right􏿿 Command Public
+Public Command
+
 [Me]       Cek Akun Sendiri
 [My mid]   Cek Akun Mid
 [Bot?]     Cek Akun Bot
@@ -67,7 +68,6 @@ helpMessage =""" [R.A] BOT Menu V.3  􀔃􀄆red check mark􏿿
 [RA 1/2/3/4] Cek Mid Bot
 [Respon]   Cek Respon Bot
 [Speedbot] Cek Kecepatan Bot
-[-]       Fungsi Spam Chat
 [Tagall]   Mention Semua User
 [Banlist]  Cek List Akun Banned
 [Gn namagroup] Ganti Nama Group
@@ -76,8 +76,8 @@ helpMessage =""" [R.A] BOT Menu V.3  􀔃􀄆red check mark􏿿
 [Open url]  Membuka Url Group
 [Close url] Menutup Url Group
 
-􀔃􀅕red arrow right􏿿 Command Private
-[Set group] Menggatur Privasi Grup
+Admin/Staff Command
+
 [Banned @] Bann Target 
 [Unban @]  Unbann Target
 [Kill @] Kick Target Bann
@@ -87,18 +87,10 @@ helpMessage =""" [R.A] BOT Menu V.3  􀔃􀄆red check mark􏿿
 [All join] Invite Semua Bot
 [_namabot join] Invite Bot
 [Bye _namabot]  Leave Bot
+[Gr on/off] Protect Grup
+[Contact on/off] Mid Via Contact
 """
 
-Setgroup =""" Privasi Menu V.1 􀔃􀄆red check mark􏿿
-
-[Protect Group]
--- Gr on/off
-[Mid Via Contact]
- -- Contact on/off
-[Cancel All Invited]
--- Cancel on/off
-[No Joinned]
--- Join on/off
 """
 KAC=[cl,ki,kk,kc,ks,ka,kb,ko,ke,ku]
 DEF=[ka,kb,ko,ke,ku]
